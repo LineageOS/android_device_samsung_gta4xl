@@ -1,5 +1,6 @@
 ## RIL
 ro.carrier=unknown
 ro.radio.noril=no
+ro.telephony.default_network=9
 vendor.rild.libpath=/vendor/lib64/libsec-ril.so
 vendor.sec.rild.libpath=/vendor/lib64/libsec-ril.so
