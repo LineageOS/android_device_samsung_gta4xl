@@ -1,9 +1,5 @@
 # Proprietary files - from Samsung package version P615XXS5FWD2, unless pinned
 
-## Audio
-vendor/etc/floating_feature.xml
-vendor/etc/mixer_gains.xml
-
 ## Audio - Dolby Atmos
 -vendor/lib/soundfx/libswdap.so
 
@@ -36,6 +32,7 @@ vendor/etc/init/init.gps.rc
 -vendor/bin/cbd
 vendor/etc/init/init.baseband.rc
 vendor/etc/init/init.vendor.rilcommon.rc
+vendor/etc/floating_feature.xml
 vendor/etc/plmn_delta.bin
 vendor/etc/plmn_delta_attaio.bin
 vendor/etc/plmn_delta_hktw.bin
