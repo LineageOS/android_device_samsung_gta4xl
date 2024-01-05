@@ -53,7 +53,7 @@ vendor/etc/plmn_se13.bin
 vendor/etc/init/init.vendor.rilchip.rc|0f5f13a11c084db5dc0eb47bb693235a2273f91e
 -vendor/lib/libsemnativecarrierfeature.so|d280604d21163b87ca731df9b9d95d09b39f3c2a
 -vendor/lib64/libril-samsung.so|629940983136ff525ed41a3324f50c3f9d752432
--vendor/lib64/libsec-ril.so|df30b39bda244753649d8bce082c34ee67112ca1
+-vendor/lib64/libsec-ril.so|bcbfaa30a1482ce1a2134945143b00ab235a910c
 -vendor/lib64/libsemnativecarrierfeature.so|ca44453cf7cca968606b56936be7de0d214d74be
 
 ## TEEGRIS Firmware
