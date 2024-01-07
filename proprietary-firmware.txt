@@ -1,0 +1,14 @@
+# Firmware for model SM-P615 - from Samsung package version P615XXS5FWD2
+
+cm.bin_SM-P615
+keystorage.bin_SM-P615
+modem.bin_SM-P615
+modem_debug.bin_SM-P615
+sboot.bin_SM-P615
+uh.bin_SM-P615
+up_param.bin_SM-P615
+
+# File containing the supported models, one per line
+models
+# Files containing Samsung package version for supported models
+version_SM-P615
