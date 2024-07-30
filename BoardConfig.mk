@@ -25,8 +25,6 @@ DEVICE_PATH := device/samsung/gta4xl
 TARGET_KERNEL_CONFIG := exynos9611-gta4xl_defconfig
 
 ## Manifest
-DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
-    $(DEVICE_PATH)/device_framework_matrix.xml
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/device_manifest.xml
 
 ## Properties
