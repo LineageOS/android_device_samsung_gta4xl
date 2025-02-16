@@ -48,8 +48,13 @@ PRODUCT_PACKAGES += \
     libdsms_vendor:64
 
 PRODUCT_PACKAGES += \
+    cbd \
     secril_config_svc \
     sehradiomanager
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/ril/sehradiomanager.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sehradiomanager.conf
+
+# Soong Namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    hardware/samsung_slsi-linaro/exynos/cpboot_v3

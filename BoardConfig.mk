@@ -29,3 +29,7 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/device_manifest.xml
 
 ## Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
+## RIL
+$(call soong_config_set,cbd,protocol,sipc)
+$(call soong_config_set,cbd,use_legacy_sipc_ioctl,true)

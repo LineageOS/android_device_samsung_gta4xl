@@ -30,7 +30,6 @@ vendor/etc/init/init.gps.rc
 
 ## RIL
 -vendor/bin/cass
--vendor/bin/cbd
 vendor/etc/init/cass.rc
 vendor/etc/init/init.baseband.rc
 vendor/etc/init/init.vendor.rilcommon.rc
