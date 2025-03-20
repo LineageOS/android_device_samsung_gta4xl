@@ -1,14 +1,14 @@
 # Firmware for model SM-P615 - from Samsung package version P615XXS8FXE4
 
-cm.bin_SM-P615
-keystorage.bin_SM-P615
-modem.bin_SM-P615
-modem_debug.bin_SM-P615
-sboot.bin_SM-P615
-uh.bin_SM-P615
-up_param.bin_SM-P615
+cm.bin_SM-P615|392a618a6db7ccba9f60e7a66524d3ee66155743
+keystorage.bin_SM-P615|8ac98f3e598da23d79e67a3cd893207b6d0baf18
+modem.bin_SM-P615|a9f146e0aff6b5dadc6a5b6c062a5ace717032c7
+modem_debug.bin_SM-P615|95f47615304dc767fde84dbf6c8f5afc48196a5b
+sboot.bin_SM-P615|8369b3d8418ba1d07551086273a4248876ed6f7d
+uh.bin_SM-P615|d9e6ba5e88b3e6782472fe49ac4f55d1d765e698
+up_param.bin_SM-P615|55774c07983f9dbf69ebaf822a780c9208c94d05
 
 # File containing the supported models, one per line
-models
+models|529c42994d46f7b8f5f150fe1cd9955ec50a0a74
 # Files containing Samsung package version for supported models
-version_SM-P615
+version_SM-P615|6026bcd09a4466cd4ceb5383d62c7cbd28f8168b

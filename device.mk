@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020-2021 The LineageOS Project
+# Copyright (C) 2020-2025 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -32,21 +32,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.ims.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.ims.xml
 
 # RIL
-PRODUCT_PACKAGES += \
-    android.hardware.radio@1.2.vendor:64 \
-    android.hardware.radio.config-V1-ndk.vendor:64 \
-    android.hardware.radio.data-V1-ndk.vendor:64 \
-    android.hardware.radio.messaging-V1-ndk.vendor:64 \
-    android.hardware.radio.modem-V1-ndk.vendor:64 \
-    android.hardware.radio.network-V1-ndk.vendor:64 \
-    android.hardware.radio.sim-V1-ndk.vendor:64 \
-    android.hardware.radio.voice-V1-ndk.vendor:64 \
-    libnetutils.vendor:64 \
-    libsqlite.vendor:64
-
-PRODUCT_PACKAGES += \
-    libdsms_vendor:64
-
 PRODUCT_PACKAGES += \
     cbd \
     secril_config_svc \
