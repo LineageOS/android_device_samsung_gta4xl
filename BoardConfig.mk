@@ -32,4 +32,4 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 ## RIL
 $(call soong_config_set,cbd,protocol,sipc)
-$(call soong_config_set,cbd,use_legacy_sipc_ioctl,true)
+$(call soong_config_set_bool,cbd,use_legacy_sipc_ioctl,true)
